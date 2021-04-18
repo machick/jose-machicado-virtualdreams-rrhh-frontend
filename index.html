@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="https://www.virtualdreams.com.ar/wp-content/uploads/2020/03/cropped-Isologo-32x32.png" sizes="32x32">
     <link rel="icon" href="https://www.virtualdreams.com.ar/wp-content/uploads/2020/03/cropped-Isologo-192x192.png" sizes="192x192">
+    
 </head>
 <body>
     <nav id="header" class=" navbar navbar-dark navbar-expand-md text-white ">        
@@ -34,22 +35,22 @@
         <form action="" id="formulario">
         <div class="form-group">
           <label for="nombre">Nombre</label>
-          <input type="text" name="nombre" id="nombre" class="form-control">          
+          <input autocomplete="off" type="text" name="nombre" id="nombre" class="form-control">          
           <span id="errorNombre" class="errores"></span>
         </div>
         <div class="form-group">
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" class="form-control">
+          <input autocomplete="off" type="text" name="email" id="email" class="form-control">
           <span id="errorEmail" class="errores"></span>
         </div>
         <div class="form-group">
             <label for="asunto">Asunto</label>
-            <input type="text"name="asunto" id="asunto" class="form-control">          
+            <input autocomplete="off" type="text"name="asunto" id="asunto" class="form-control">          
             <span id="errorAsunto" class="errores"></span>
           </div>
           <div class="form-group">
             <label for="mensaje">Mensaje</label>
-            <textarea class="form-control" name="mensaje" id="textarea" rows="5"></textarea>       
+            <textarea autocomplete="off" class="form-control" name="mensaje" id="textarea" rows="5"></textarea>       
             <span id="errorMensaje" class="errores"></span>
           </div>
         
@@ -92,6 +93,6 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="/boostrap/js/bootstrap.min.js"></script>
-<script src="/js/app.js"></script>
+<script src="boostrap/js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 </html>
