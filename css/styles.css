@@ -28,6 +28,9 @@ footer{
 .errores{
     color:#FF0000  ;
 }
+.btn.disable, .btn:disabled{
+    opacity: 0.25;
+}
 
 @media screen and (min-width:767.5px){
 #header{
